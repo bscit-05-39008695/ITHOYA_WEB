@@ -1,0 +1,91 @@
+:root{
+    --green: #1ec6b6;
+    --light-grey: #f7f7f7;
+    --dark: #0e1010;
+    --trans: all 0.3s ease-in-out;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+    padding: 1rem 0;
+    z-index: 999;
+}
+.navbar .container{
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.site-brand{
+    color: #fff;
+    font-size: 2.4rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    opacity: 0.95;
+}
+.site-brand span{
+    font-weight: 300;
+}
+#navbar-show-btn{
+    background: transparent;
+    color: #fff;
+    font-size: 2rem;
+    opacity: 0.9;
+    -webkit-transition: var(--trans);
+    -o-transition: var(--trans);
+    transition: var(--trans);
+    border: none;
+}
+#navbar-show-btn:hover{
+    opacity: 1;
+}
+
+/* ### CONTACT PAGE ### */
+/* contact */
+.contact-form .form-control{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: #000;
+    display: block;
+    margin: 1.6rem auto;
+}
+.contact-form .btn{
+    display: block;
+    margin: auto;
+}
+.contact-icon{
+    background-color: var(--green);
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 1rem auto;
+    font-size: 2rem;
+}
+.contact-item{
+    text-align: center;
+    margin: 3rem 0;
+}
+.contact-item div span{
+    font-weight: 600;
+    font-family: "Ralway", sans-serif;
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 1rem;
+}
+body {
+    background-color: transparent; /* Make the body background transparent */
+    margin: 0; /* Remove default margin */
+}
+
+.flex {
+            background-color: #3498db; /* Header background color */
+            padding: 20px; /* Optional: Add some padding */
+        }
+        .header-title h1 {
+            color: #ffffff; /* Title color */
+        }
+
+        .header-title p {
+            color: blue; /* Paragraph color */
+        }
